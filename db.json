@@ -1,0 +1,131 @@
+{
+    "courses": [
+        {
+            "name": "Course 1",
+            "category": "Programming",
+            "tags": [
+                "Python",
+                "JavaScript",
+                "Web Development"
+            ]
+        },
+        {
+            "name": "Course 2",
+            "category": "Data Science",
+            "tags": [
+                "Machine Learning",
+                "Statistics",
+                "Data Visualization"
+            ]
+        },
+        {
+            "name": "Course 3",
+            "category": "Design",
+            "tags": [
+                "UI/UX",
+                "Graphic Design",
+                "Typography"
+            ]
+        }
+    ],
+    "instructors": [
+        {
+            "name": "John Doe",
+            "courses": [
+                {
+                    "name": "Programming Basics",
+                    "category": "Programming",
+                    "tags": [
+                        "Python",
+                        "JavaScript",
+                        "Algorithms"
+                    ]
+                },
+                {
+                    "name": "Data Science Fundamentals",
+                    "category": "Data Science",
+                    "tags": [
+                        "Machine Learning",
+                        "Statistics",
+                        "Data Visualization"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Jane Smith",
+            "courses": [
+                {
+                    "name": "Web Development",
+                    "category": "Web Development",
+                    "tags": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript"
+                    ]
+                },
+                {
+                    "name": "User Experience Design",
+                    "category": "Design",
+                    "tags": [
+                        "UI/UX",
+                        "Wireframing",
+                        "Prototyping"
+                    ]
+                }
+            ]
+        }
+    ],
+    "roles": {
+        "admin": {
+            "permissions": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        },
+        "student": {
+            "permissions": [
+                "read"
+            ]
+        },
+        "instructor": {
+            "permissions": [
+                "read",
+                "update"
+            ]
+        }
+    },
+    "tags": [
+        "Python",
+        "JavaScript",
+        "Machine Learning",
+        "Statistics",
+        "Data Visualization",
+        "Web Development",
+        "UI/UX",
+        "Graphic Design",
+        "Typography"
+    ],
+    "users": [
+        {
+            "username": "alice",
+            "role": "admin",
+            "email": "alice@example.com",
+            "password": "123"
+        },
+        {
+            "username": "bob",
+            "role": "student",
+            "email": "bob@example.com",
+            "password": "123"
+        },
+        {
+            "username": "carol",
+            "role": "instructor",
+            "email": "carol@example.com",
+            "password": "123"
+        }
+    ]
+}
